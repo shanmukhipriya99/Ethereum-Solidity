@@ -1,0 +1,5 @@
+1) The path module is going to help us build a path like a directory path from the current compile.js file over to the inbox as well file.
+2) The reason we're going to use the path module for this rather than attempting to just write out the path directly is that by using the path module we are guaranteed to get cross platform compatibility.
+3) fs system module is used to read the contents in the path.
+4) __dirname -> gets the compiler to the current directory.
+5) 
