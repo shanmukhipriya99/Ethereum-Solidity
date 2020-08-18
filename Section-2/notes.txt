@@ -20,4 +20,6 @@
      2. npm uninstall ganache-cli  -- after deleting ganache-cli from node_modules manually
      3. npm install --save ganache-cli
 19)beforeEach() executes before every it(), can contain common code that needs to be executed
-20)
+20)Every function called with web3 is asynchronous in nature i.e a promise is returned
+21)The property 'interface' is the Js ABI and 'bytecode' is the actual raw compiled contract.
+22)
