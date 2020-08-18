@@ -19,4 +19,5 @@
 18)  1. nvm use 12
      2. npm uninstall ganache-cli  -- after deleting ganache-cli from node_modules manually
      3. npm install --save ganache-cli
-19)
+19)beforeEach() executes before every it(), can contain common code that needs to be executed
+20)

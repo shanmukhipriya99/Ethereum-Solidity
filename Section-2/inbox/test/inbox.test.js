@@ -7,15 +7,19 @@ class Car {
     park() {
         return 'stopped';
     }
-
     drive() {
         return 'vroom';
     }
 }
-
+let car;  //initialized here to make it global
+beforeEach(() => {
+    car = new Car();
+});
 describe('Car Test', () => {
     it('can park', () => {
-        const car = new Car();
         assert.equal(car.park(), 'stopped');
+    });
+    it('can drive', () => {
+        assert.equal(car.drive(), 'vroom');
     });
 });
