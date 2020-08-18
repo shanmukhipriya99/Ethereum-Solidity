@@ -2,4 +2,16 @@
 2) The reason we're going to use the path module for this rather than attempting to just write out the path directly is that by using the path module we are guaranteed to get cross platform compatibility.
 3) fs system module is used to read the contents in the path.
 4) __dirname -> gets the compiler to the current directory.
-5) 
+5) solc.compile(source, 1) -> compiles the contract, 1 -> no of contracts
+6) Web 3 is a library that we use to get programmatic access to a deployed contract on the block chain.
+7) assert is used for making assertions about different tests in the inbox.test.js file
+8) ganache is like a local ethereum test network
+9) Web3 is a constructor used to create instances of a web3 library
+10)Whenever we make an instance of web3, we have to set up a provider.
+11)A provider is like a communication layer between the web3 library and some specific ethereum network.
+12)Web3 -> constructor; web3 -> instance
+13)Mocha is a test-running framework
+14)describe() -> 1st parameter is a description, 2nd is a function that contains it()
+15)it() ->  1st parameter is a description, 2nd is a function with the test code
+16)assert.equal() -> value produced, expected value
+17)
