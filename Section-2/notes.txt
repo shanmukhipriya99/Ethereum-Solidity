@@ -14,4 +14,9 @@
 14)describe() -> 1st parameter is a description, 2nd is a function that contains it()
 15)it() ->  1st parameter is a description, 2nd is a function with the test code
 16)assert.equal() -> value produced, expected value
-17)
+17){{{{{{{{{{--------------"test": "node ./node_modules/mocha/bin/mocha"---------}}}}}}}}}} very IMP!! in windows
+    then "npm test"
+18)  1. nvm use 12
+     2. npm uninstall ganache-cli  -- after deleting ganache-cli from node_modules manually
+     3. npm install --save ganache-cli
+19)
