@@ -16,13 +16,17 @@ beforeEach(async () => {
     inbox = await new web3.eth.Contract(JSON.parse(interface))  //Contract() is an instance
     .deploy({ data: bytecode, arguments: ['Hi there!'] })  //arguments value goes to the constructor in inbox.sol
     .send({ from: accounts[0], gas: '1000000' })
+    // inbox.setProvider(provider);
 });
 
 describe('Inbox', () => {
     it('deploys a contract', () => {
         assert.ok(inbox.options.address);  //ok() checks whether the passed value exists or not
     });
-    // inbox.setProvider(provider);
+    it('has a default message', async () => {   //calling a method is asynchronous
+        const message = await inbox.methods.message().call();
+        assert.equal(message, 'Hi there!');
+    });
 });
 
 // class Car {
