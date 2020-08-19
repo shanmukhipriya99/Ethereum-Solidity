@@ -22,4 +22,4 @@
 19)beforeEach() executes before every it(), can contain common code that needs to be executed
 20)Every function called with web3 is asynchronous in nature i.e a promise is returned
 21)The property 'interface' is the Js ABI and 'bytecode' is the actual raw compiled contract.
-22)
+22)call() is a read-only, instantaneous function.
