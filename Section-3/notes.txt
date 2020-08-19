@@ -1,0 +1,2 @@
+1) msg is an object that is available with any function invocation and contract instance.
+2) 
