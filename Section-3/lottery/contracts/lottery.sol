@@ -1,6 +1,6 @@
 pragma solidity ^0.4.17;
 
-contract Lottry {
+contract Lottery {
     address public manager;
     address[] public players;
 
@@ -9,7 +9,7 @@ contract Lottry {
     }
 
     function enter() public payable {
-        require(msg.value > 0.01);
+        require(msg.value > 0.01 ether);
         players.push(msg.sender);
     }
 
