@@ -1,2 +1,10 @@
 1) msg is an object that is available with any function invocation and contract instance.
-2) 
+2) Whenever we mark a variable as 'public' we automatically get a new function created for us that allows us to access this variable.
+3) Nested arrays are allowed in solidity but not allowed in ABI/Js/Web3.
+4) Strings in solidity work as nested dynamic arrays. i.e no array of strings!
+5) The error messages returned by require() don't state the error clearly.
+6) modifier function can be used to work with re-usable code.
+7) bytecode is the form of the contract that can be compiled by the solc compiler.
+8) interface is the contract ABI.
+9) new instance of a contract needs to be created in web3.eth.Contract().
+10)assert.equal(value it should be, value it returns)
