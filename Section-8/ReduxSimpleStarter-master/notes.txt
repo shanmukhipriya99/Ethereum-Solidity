@@ -1,0 +1,4 @@
+1) The code needs to be transpiled before it is sent to the browser.
+2) A tool named webpack which is backed by babel, a library can be used here.
+3) Webpack and babel/babel.js take the ES6 code and transpile it into something that can be read by the browser.
+4) After they transpile, they return a single file called Application.js
