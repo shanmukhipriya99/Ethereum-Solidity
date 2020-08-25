@@ -2,3 +2,6 @@
 2) A tool named webpack which is backed by babel, a library can be used here.
 3) Webpack and babel/babel.js take the ES6 code and transpile it into something that can be read by the browser.
 4) After they transpile, they return a single file called Application.js
+5) The script containing bundle.js is the compiled javascript for the entire application.
+6) React is a Js library that is used to produce HTML that is shown on the browser.
+    Therefore, when we write react code, we're actually writing individual components or views.
