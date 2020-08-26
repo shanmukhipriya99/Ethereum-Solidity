@@ -5,3 +5,9 @@
 5) The script containing bundle.js is the compiled javascript for the entire application.
 6) React is a Js library that is used to produce HTML that is shown on the browser.
     Therefore, when we write react code, we're actually writing individual components or views.
+7) JSX is a subscript or dialect of Js that allows us to write HTML like code but it is actually Js.
+8) We have to import the modules that we want to use because of the Js modules concept. This concept encapsulates the idea that all the code written in separate files is siloed.
+9) To actually render a component to the DOM we don't use the react library, we use react-dom.
+10)Whenever we use a Js variable inside return(), we wrap it with {}.
+11)Controlled component has it's value set by a state.
+12)
