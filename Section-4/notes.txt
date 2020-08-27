@@ -1,0 +1,12 @@
+1) for installing web3, npm install --save web3@1.0.0-beta.26 --python=python2
+2) This is needed to allow this application to interact with metamask
+    window.ethereum.enable();
+3) const manager = await lottery.methods.manager().call();
+    there needs to be a parenthesis after manager.
+    No need of passing from insode call when working with metamask. it is directly linked to the first signed it account in metamask
+4) rm -r node_modules/*/.git/
+5) npm i mkdirp
+6) npm update web3        // 1.2.11
+7) Make sure you've copied the entire ABI!!
+
+
