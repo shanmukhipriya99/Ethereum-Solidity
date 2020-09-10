@@ -24,9 +24,16 @@ beforeEach(async () => {
 
     const addresses = await factory.methods.getDeployedCampaigns().call();
     campaignAddress = addresses[0];
-    campaign = await web3.eth.Contract(
+    campaign = await new web3.eth.Contract(
         JSON.parse(compiledCampaign.interface),
         campaignAddress  //since the contract is already deployed
     );
+});
+
+describe('Campaigns', () => {
+    it('deploys a factory and a campaign', () => {
+        assert.ok(factory.options.address);
+        assert.ok(campaign.options.address);
+    });
 });
 
