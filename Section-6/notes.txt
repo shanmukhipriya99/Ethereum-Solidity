@@ -1,0 +1,4 @@
+1) npm init -y
+2) npm i --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.35
+3) npm install --save solc@0.4.17
+4) parseFloat() converts a string into a decimal number
