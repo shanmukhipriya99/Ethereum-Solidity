@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import factory from "../ethereum/factory";
-import { Card } from "semantic-ui-react";
+import { Card, Button } from "semantic-ui-react";
 
 class CampaignIndex extends Component {
   static async getInitialProps() {
@@ -28,6 +28,11 @@ class CampaignIndex extends Component {
         />
         <h1>Campaigns Index!</h1>
         {this.renderCampaigns()}
+        <Button
+            content='Create Campaign'
+            icon='add circle'
+            primary        
+        />
       </div>
     );
   }
