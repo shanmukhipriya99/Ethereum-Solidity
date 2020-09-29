@@ -2,3 +2,9 @@
 2) npm i --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.35
 3) npm install --save solc@0.4.17
 4) parseFloat() converts a string into a decimal number
+5) Next.js always looks for a folder called pages
+6) The root page can be named as index.js
+7) window not found error occurs because next renders the react code on the server-side and window is an object that is available in the browser only.
+8) next renders the code twice: on the server and on the browser.
+9) CDN: https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.12/semantic.min.css
+10)Head is provided by Next.js and anything inside this tag will add them to the header tag in the html page.
