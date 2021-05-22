@@ -3,7 +3,7 @@
 3) fs system module is used to read the contents in the path.
 4) __dirname -> gets the compiler to the current directory.
 5) solc.compile(source, 1) -> compiles the contract, 1 -> no of contracts  *(Old version)*
-https://stackoverflow.com/a/56724675    *(new version)*
+https://stackoverflow.com/a/56724675   OR   https://stackoverflow.com/a/57795972 *(new version)*
 6) Web 3 is a library that we use to get programmatic access to a deployed contract on the block chain.
 7) assert is used for making assertions about different tests in the inbox.test.js file
 8) ganache is like a local ethereum test network
